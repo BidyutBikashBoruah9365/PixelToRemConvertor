@@ -25,16 +25,37 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blueviolet;
+    background-color: rgb(187, 166, 206);
     height: calc(100vh - 62px);
+    border-radius: 300px 50px 300px 50px;
 }
 
 .container{
-    background-color: burlywood;
+ /*   background-color: rgb(75, 75, 75);  */
+ background-color: rgb(138, 121, 140);
     height: 400px;
     width: 700px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    border-radius: 200px 50px 300px 50px;
+}
+
+#pxInput{
+    background-color: #252424;
+    border-radius: 10px 10px 10px 10px;
+    color: rgb(0, 229, 255);
+
+}
+
+#remOutput{
+    background-color: #252424;
+    border-radius: 10px 10px 10px 10px;
+    color: rgb(0, 229, 255);
+}
+
+p{
+    color: rgb(0, 229, 255);
+    padding-bottom: 10px;
 }
